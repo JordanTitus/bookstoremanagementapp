@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.bookstoremanagementapp.mainpackage.App",
+            "projectName": "bookstoremanagementapp"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App<bookstoremanagementapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.bookstoremanagementapp.App",
+            "projectName": "bookstoremanagementapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
